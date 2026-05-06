@@ -27,9 +27,9 @@ Makefile (Opcional): Para facilitar la compilación de múltiples archivos.
 
 **Ejemplo de Salida:**
 --- Reporte de Nomina Mensual ---
-Empleado: Julia Rodriguez | Pago: $3000.00
-Empleado: Marcos Gamez | Pago: $1200.50
-Total Nomina: $4200.50
+Empleado: Julia Perez | Pago: $5000.00
+Empleado: Brian Garcia | Pago: $800.00
+Total Nomina: $5800.00
 
 **Pruebas:**
 No deben aparecer "destructores no virtuales".
