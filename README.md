@@ -17,9 +17,18 @@ Clase Derivada: HourlyEmployee
 Atributos: hourlyRate y hoursWorked.
 Cálculo: El pago es hourlyRate * hoursWorked.
 
+**Archivos:**
+Employee.h: Definición de la clase base abstracta y destructor virtual.
+SalariedEmployee.h / .cpp: Especialización para empleados asalariados.
+HourlyEmployee.h / .cpp: Especialización para empleados por hora.
+main.cpp: Punto de entrada que implementa el std::vector<Employee*>.
+Makefile (Opcional): Para facilitar la compilación de múltiples archivos.
+
 **Ejemplo de Salida**
 --- Reporte de Nómina Mensual ---
 Empleado: Juan Pérez | Pago: $3500.00
 Empleado: Ana Gómez | Pago: $1250.50
 ---------------------------------
 Total Nómina: $4750.50
+
+
