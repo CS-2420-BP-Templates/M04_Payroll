@@ -24,14 +24,14 @@ HourlyEmployee.h / .cpp: Especialización para empleados por hora.
 main.cpp: Punto de entrada que implementa el std::vector<Employee*>.
 Makefile (Opcional): Para facilitar la compilación de múltiples archivos.
 
+
 **Ejemplo de Salida:**
 --- Reporte de Nomina Mensual ---
-Empleado: Julia Rodrgiuez | Pago: $3000.00
-Empleado: Marcos Gamez | Pago: $1250.00
-----------------------------------
-Total Nomina: $4250.00
+Empleado: Julia Rodriguez | Pago: $3000.00
+Empleado: Marcos Gamez | Pago: $1200.50
+Total Nomina: $4200.50
 
-Pruebas:
+**Pruebas:**
 No deben aparecer "destructores no virtuales".
 Al ejecutar el codigo de prueba, el salario de Julia deber ser exactamente 3000 y el de Marcos 1250.
 Si estas usando Linux/Mac, corre el siguiente comando para verificar que no haya fugas de memoria: valgrind ---check=full ./programa  Deberias ver el mensaje: "All heap blocks were freed -- no leaks are possible"
